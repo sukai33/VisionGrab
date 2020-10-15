@@ -1,0 +1,7 @@
+# 所有模板文件的路径
+./data1/object_template_0.pcd
+./data1/object_template_1.pcd
+./data1/object_template_2.pcd
+./data1/object_template_3.pcd
+./data1/object_template_4.pcd
+./data1/object_template_5.pcd

@@ -1,0 +1,14 @@
+prefix=/opt/Qt5.7.1/5.7/gcc_64
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 3DQuickExtras
+Description: Qt 3DQuickExtras module
+Version: 5.7.1
+Libs: -L${libdir} -lQt53DQuickExtras 
+Libs.private: -L/usr/lib64 -L/opt/Qt5.7.1/5.7/gcc_64/lib -lQt53DInput -L/opt/Qt5.7.1/5.7/gcc_64/lib -lQt53DQuick -lQt53DRender -lQt53DLogic -lQt53DCore -lQt5Gamepad -lQt5Quick -lQt5Gui -lQt5Qml -lQt5Network -lQt5Concurrent -lQt5Core -lpthread -lGL  
+Cflags: -I${includedir}/Qt3DQuickExtras -I${includedir}
+Requires: Qt5Core Qt5Gui Qt5Qml Qt53DCore Qt53DInput Qt53DQuick Qt53DRender Qt53DLogic
+

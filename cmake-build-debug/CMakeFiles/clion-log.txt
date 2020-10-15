@@ -1,0 +1,39 @@
+F:\CLion-2020.1.1.win\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" M:\heima_不可分享_有隐私资料\隐私_不允许分享_工具\新建文件夹\VisionGrab
+-- The C compiler identification is GNU 7.3.0
+-- The CXX compiler identification is GNU 7.3.0
+-- Check for working C compiler: F:/qt/Tools/mingw730_64/bin/gcc.exe
+-- Check for working C compiler: F:/qt/Tools/mingw730_64/bin/gcc.exe -- broken
+CMake Error at F:/CLion-2020.1.1.win/bin/cmake/win/share/cmake-3.16/Modules/CMakeTestCCompiler.cmake:60 (message):
+  The C compiler
+
+    "F:/qt/Tools/mingw730_64/bin/gcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: M:/heima_涓嶅彲鍒嗕韩_鏈夐殣绉佽祫鏂�/闅愮_涓嶅厑璁稿垎浜玙宸ュ叿/鏂板缓鏂囦欢澶�/VisionGrab/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):F:/qt/Tools/mingw730_64/bin/mingw32-make.exe cmTC_49265/fast && F:/qt/Tools/mingw730_64/bin/mingw32-make.exe -f CMakeFiles\cmTC_49265.dir\build.make CMakeFiles/cmTC_49265.dir/build
+    mingw32-make.exe[1]: Entering directory 'M:/heima_涓嶅彲鍒嗕韩_鏈夐殣绉佽祫鏂�/闅愮_涓嶅厑璁稿垎浜玙宸ュ叿/鏂板缓鏂囦欢澶�/VisionGrab/cmake-build-debug/CMakeFiles/CMakeTmp'
+    Building C object CMakeFiles/cmTC_49265.dir/testCCompiler.c.obj
+    F:\qt\Tools\mingw730_64\bin\gcc.exe    -o CMakeFiles\cmTC_49265.dir\testCCompiler.c.obj   -c M:\heima_娑撳秴褰查崚鍡曢煩_閺堝娈ｇ粔浣界カ閺傛┙闂呮劗顫哶娑撳秴鍘戠拋绋垮瀻娴滅帣瀹搞儱鍙縗閺傛澘缂撻弬鍥︽婢剁VisionGrab\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+    gcc.exe: error: M:\heima_娑撳秴褰查崚鍡曢煩_閺堝娈ｇ粔浣界カ閺傛┙闂呮劗顫哶娑撳秴鍘戠拋绋垮瀻娴滅帣瀹搞儱鍙縗閺傛澘缂撻弬鍥︽婢剁VisionGrab\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c: No such file or directory
+    gcc.exe: fatal error: no input files
+    compilation terminated.
+    mingw32-make.exe[1]: *** [CMakeFiles\cmTC_49265.dir\build.make:65: CMakeFiles/cmTC_49265.dir/testCCompiler.c.obj] Error 1
+    mingw32-make.exe[1]: Leaving directory 'M:/heima_涓嶅彲鍒嗕韩_鏈夐殣绉佽祫鏂�/闅愮_涓嶅厑璁稿垎浜玙宸ュ叿/鏂板缓鏂囦欢澶�/VisionGrab/cmake-build-debug/CMakeFiles/CMakeTmp'
+    mingw32-make.exe: *** [Makefile:120: cmTC_49265/fast] Error 2
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "M:/heima_涓嶅彲鍒嗕韩_鏈夐殣绉佽祫鏂�/闅愮_涓嶅厑璁稿垎浜玙宸ュ叿/鏂板缓鏂囦欢澶�/VisionGrab/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "M:/heima_涓嶅彲鍒嗕韩_鏈夐殣绉佽祫鏂�/闅愮_涓嶅厑璁稿垎浜玙宸ュ叿/鏂板缓鏂囦欢澶�/VisionGrab/cmake-build-debug/CMakeFiles/CMakeError.log".

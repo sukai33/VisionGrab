@@ -1,0 +1,14 @@
+prefix=/opt/Qt5.7.1/5.7/gcc_64
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 DBus
+Description: Qt DBus module
+Version: 5.7.1
+Libs: -L${libdir} -lQt5DBus 
+Libs.private: -L/opt/Qt5.7.1/5.7/gcc_64/lib -lQt5Core -lpthread -L/lib64 -ldbus-1 -lpthread -lrt  
+Cflags: -I${includedir}/QtDBus -I${includedir}
+Requires: Qt5Core
+

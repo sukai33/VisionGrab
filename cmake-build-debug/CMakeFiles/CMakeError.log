@@ -1,0 +1,32 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: M:/heima_不可分享_有隐私资料/隐私_不允许分享_工具/新建文件夹/VisionGrab/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):F:/qt/Tools/mingw730_64/bin/mingw32-make.exe cmTC_5948e/fast && F:/qt/Tools/mingw730_64/bin/mingw32-make.exe -f CMakeFiles\cmTC_5948e.dir\build.make CMakeFiles/cmTC_5948e.dir/build
+mingw32-make.exe[1]: Entering directory 'M:/heima_不可分享_有隐私资料/隐私_不允许分享_工具/新建文件夹/VisionGrab/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5948e.dir/testCCompiler.c.obj
+F:\qt\Tools\mingw730_64\bin\gcc.exe    -o CMakeFiles\cmTC_5948e.dir\testCCompiler.c.obj   -c M:\heima_涓嶅彲鍒嗕韩_鏈夐殣绉佽祫鏂橽闅愮_涓嶅厑璁稿垎浜玙宸ュ叿\鏂板缓鏂囦欢澶筡VisionGrab\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+gcc.exe: error: M:\heima_涓嶅彲鍒嗕韩_鏈夐殣绉佽祫鏂橽闅愮_涓嶅厑璁稿垎浜玙宸ュ叿\鏂板缓鏂囦欢澶筡VisionGrab\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c: No such file or directory
+gcc.exe: fatal error: no input files
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_5948e.dir\build.make:65: CMakeFiles/cmTC_5948e.dir/testCCompiler.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'M:/heima_不可分享_有隐私资料/隐私_不允许分享_工具/新建文件夹/VisionGrab/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_5948e/fast] Error 2
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: M:/heima_不可分享_有隐私资料/隐私_不允许分享_工具/新建文件夹/VisionGrab/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):F:/qt/Tools/mingw730_64/bin/mingw32-make.exe cmTC_49265/fast && F:/qt/Tools/mingw730_64/bin/mingw32-make.exe -f CMakeFiles\cmTC_49265.dir\build.make CMakeFiles/cmTC_49265.dir/build
+mingw32-make.exe[1]: Entering directory 'M:/heima_不可分享_有隐私资料/隐私_不允许分享_工具/新建文件夹/VisionGrab/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_49265.dir/testCCompiler.c.obj
+F:\qt\Tools\mingw730_64\bin\gcc.exe    -o CMakeFiles\cmTC_49265.dir\testCCompiler.c.obj   -c M:\heima_涓嶅彲鍒嗕韩_鏈夐殣绉佽祫鏂橽闅愮_涓嶅厑璁稿垎浜玙宸ュ叿\鏂板缓鏂囦欢澶筡VisionGrab\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+gcc.exe: error: M:\heima_涓嶅彲鍒嗕韩_鏈夐殣绉佽祫鏂橽闅愮_涓嶅厑璁稿垎浜玙宸ュ叿\鏂板缓鏂囦欢澶筡VisionGrab\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c: No such file or directory
+gcc.exe: fatal error: no input files
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_49265.dir\build.make:65: CMakeFiles/cmTC_49265.dir/testCCompiler.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'M:/heima_不可分享_有隐私资料/隐私_不允许分享_工具/新建文件夹/VisionGrab/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_49265/fast] Error 2
+
+
+

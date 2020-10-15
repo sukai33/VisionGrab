@@ -1,0 +1,14 @@
+prefix=/opt/Qt5.7.1/5.7/gcc_64
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 Sql
+Description: Qt Sql module
+Version: 5.7.1
+Libs: -L${libdir} -lQt5Sql 
+Libs.private: -L/opt/Qt5.7.1/5.7/gcc_64/lib -lQt5Core -lpthread   
+Cflags: -I${includedir}/QtSql -I${includedir}
+Requires: Qt5Core
+

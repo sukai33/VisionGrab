@@ -1,0 +1,53 @@
+The system is: Windows - 10.0.18362 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: F:/qt/Tools/mingw730_64/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "M:/heima_不可分享_有隐私资料/隐私_不允许分享_工具/新建文件夹/VisionGrab/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: F:/qt/Tools/mingw730_64/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "M:/heima_不可分享_有隐私资料/隐私_不允许分享_工具/新建文件夹/VisionGrab/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/a.exe"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: F:/qt/Tools/mingw730_64/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "M:/heima_不可分享_有隐私资料/隐私_不允许分享_工具/新建文件夹/VisionGrab/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: F:/qt/Tools/mingw730_64/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "M:/heima_不可分享_有隐私资料/隐私_不允许分享_工具/新建文件夹/VisionGrab/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/a.exe"
+

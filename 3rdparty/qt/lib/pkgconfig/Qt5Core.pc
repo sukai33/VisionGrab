@@ -1,0 +1,15 @@
+prefix=/opt/Qt5.7.1/5.7/gcc_64
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+host_bins=${prefix}/bin
+qt_config=minimal-config small-config medium-config large-config full-config fontconfig evdev xlib xrender xcb-plugin xcb-qt xcb-glx xcb-xlib xcb-sm xkbcommon-qt accessibility-atspi-bridge linuxfb kms c++11 c++14 accessibility egl egl_x11 eglfs opengl shared qpa reduce_exports reduce_relocations clock-gettime clock-monotonic posix_fallocate mremap getaddrinfo ipv6ifname getifaddrs inotify eventfd threadsafe-cloexec poll_poll png doubleconversion system-freetype harfbuzz system-zlib cups iconv glib dbus dbus-linked openssl xcb xinput2 rpath alsa pulseaudio gstreamer-0.10 icu concurrent audio-backend release
+
+Name: Qt5 Core
+Description: Qt Core module
+Version: 5.7.1
+Libs: -L${libdir} -lQt5Core 
+Libs.private: -lpthread -lz -licui18n -licuuc -licudata -L/opt/Qt5.7.1/5.7/gcc_64/lib -lqtpcre -lm -ldl -L/usr/lib64 -lgthread-2.0 -pthread -lrt -lglib-2.0  
+Cflags: -I${includedir}/QtCore -I${includedir}
+

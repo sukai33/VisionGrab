@@ -1,0 +1,14 @@
+prefix=/opt/Qt5.7.1/5.7/gcc_64
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 ScriptTools
+Description: Qt ScriptTools module
+Version: 5.7.1
+Libs: -L${libdir} -lQt5ScriptTools 
+Libs.private: -L/usr/lib64 -L/opt/Qt5.7.1/5.7/gcc_64/lib -lQt5Core -lpthread -L/opt/Qt5.7.1/5.7/gcc_64/lib -lQt5Script -L/opt/Qt5.7.1/5.7/gcc_64/lib -lQt5Widgets -L/usr/lib64 -lQt5Gui -lQt5Core -lpthread -lGL  
+Cflags: -I${includedir}/QtScriptTools -I${includedir}
+Requires: Qt5Core
+

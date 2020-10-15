@@ -1,0 +1,14 @@
+prefix=/opt/Qt5.7.1/5.7/gcc_64
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 WebEngineWidgets
+Description: Qt WebEngineWidgets module
+Version: 5.7.1
+Libs: -L${libdir} -lQt5WebEngineWidgets 
+Libs.private: -L/usr/lib64 -L/opt/Qt5.7.1/5.7/gcc_64/lib -lQt5WebEngineCore -L/opt/Qt5.7.1/5.7/gcc_64/lib -lQt5Quick -lQt5Widgets -lQt5Gui -lQt5WebChannel -lQt5Qml -lQt5Network -lQt5Positioning -lQt5Core -lpthread -lQt5Quick -L/usr/lib64 -L/opt/Qt5.7.1/5.7/gcc_64/lib -lQt5Widgets -lQt5Gui -lQt5Qml -lQt5Network -lQt5Core -lpthread -lGL  
+Cflags: -I${includedir}/QtWebEngineWidgets -I${includedir}
+Requires: Qt5Core Qt5Gui Qt5WebEngineCore Qt5Widgets Qt5Network Qt5Quick
+

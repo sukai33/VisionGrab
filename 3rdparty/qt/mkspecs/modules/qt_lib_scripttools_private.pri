@@ -1,0 +1,11 @@
+QT.scripttools_private.VERSION = 5.7.1
+QT.scripttools_private.MAJOR_VERSION = 5
+QT.scripttools_private.MINOR_VERSION = 7
+QT.scripttools_private.PATCH_VERSION = 1
+QT.scripttools_private.name = QtScriptTools
+QT.scripttools_private.module =
+QT.scripttools_private.libs = $$QT_MODULE_LIB_BASE
+QT.scripttools_private.includes = $$QT_MODULE_INCLUDE_BASE/QtScriptTools/5.7.1 $$QT_MODULE_INCLUDE_BASE/QtScriptTools/5.7.1/QtScriptTools
+QT.scripttools_private.frameworks =
+QT.scripttools_private.depends = core_private scripttools
+QT.scripttools_private.module_config = v2 internal_module
